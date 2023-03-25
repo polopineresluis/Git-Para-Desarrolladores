@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Datos Paises </title>
 </head>
 <body>
     
-    <div class="container w-100 ">
-        <div class="formulario form-control">
-            <form class=""
+    <div class="container">
+        <div class="mt-3 formulario form-control form-control-lg w-100">
+            <form class="d-flex flex-column justify-content-center align-items-center "
             action="">
-                <div class="mb-3 " >
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" value="Colombia" id="nombre" disabled >
+                <div class="form-control w-75 text-center" >
+                    <label 
+                    class="w-10"for="nombre">Nombre:</label>
+                    <input 
+                    class="w-50"
+                    type="text" value="Colombia" id="nombre" disabled >
                 </div>
 
-                <div class="mb-3" id="capital">
-                    <label for="capitales">Capital:</label>
-                    <input type="text" value="Bogota" id="capitales" disabled>
+                <div class="form-control w-75 text-center" id="capital">
+                    <label class="m-1" for="capitales">Capital:</label>
+                    <input 
+                    class="w-50" type="text" value="Bogota" id="capitales" disabled>
                 </div>
             </form>
         </div>
