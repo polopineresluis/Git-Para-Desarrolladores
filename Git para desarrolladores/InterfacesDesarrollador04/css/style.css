@@ -3,3 +3,19 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.formulario{
+    border-color: red;
+}
+
+#pais{
+    border-color: blue;
+}
+
+#capital{
+    border-color: yellow;
+}
