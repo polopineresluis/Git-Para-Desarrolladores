@@ -4,11 +4,9 @@ body{
     padding: 0;
 }
 
-<<<<<<< HEAD
 .contenedor_formulario{
     border-color: red;
 }
-=======
 .form-control{
     margin-bottom: 1rem;
 }
@@ -24,4 +22,3 @@ body{
 #capital{
     border-color: yellow;
 }
->>>>>>> desarrollador04
